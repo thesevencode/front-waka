@@ -1,0 +1,48 @@
+<div class="wky-row">
+  <div class="wky-box">
+    <div class="wky-box-header">
+      <div class="wky-box-triangle-right">
+      </div>
+      <div class="wky-box-triangle-left">
+      </div>
+    </div> 
+    <div class="wky-box-body">
+      <form class="wky-form wky-box-registerlogin">
+        <div class="wky-form-in">
+          <ul class="wky-form-header">
+            <li  routerLinkActive="active">
+              <a class="wky-not-link "  routerLink="person">
+                <span class="wky-span-icon wky-icon-sm">
+                    <i class="fas fa-user-tie"></i>
+                </span>
+                <span class="wky-span-text">Persona</span>
+              </a>
+            </li>
+            <li  routerLinkActive="active">
+              <a class="wky-not-link " routerLink="company">
+                <span class="wky-span-icon wky-icon-sm">
+                    <i class="far fa-building"></i>
+                </span>
+                <span class="wky-span-text">Empresa</span>
+              </a>
+            </li>
+          </ul>
+          <router-outlet></router-outlet>
+          <div class="wky-from-footer">
+            <button class="wky-btn wky-btn-square wky-btn-2abb9b wky-w-100" type="button">
+              Registrar
+            </button>
+          </div>
+          <div class="wky-from-footer">
+            <button class="wky-btn wky-btn-square wky-btn-2abb9b wky-w-100" type="button" routerLink="/login">
+              Iniciar Sesión
+            </button>
+          </div>
+        </div>
+      </form>
+    </div>
+    <div class="wky-box-footer">
+  
+    </div>
+  </div>
+</div>
