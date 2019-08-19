@@ -1,0 +1,76 @@
+<div class="wky__sell_card">
+    <div class="wky__sell_header">
+        <p>
+            <strong>¡Empecemos!</strong>
+        </p>
+        <p>
+            Describe todo tu producto
+        </p>
+    </div>
+    <div class="wky__sell_body">
+        <div class="wky__sell_ask">
+            <p><strong>Escribe el nombre de tu producto</strong></p>
+            <p>
+                <input type="text" placeholder="Ejem: miel de abeja de la antartida" [(ngModel)]="product.name">
+            </p>
+        </div>
+
+        <div class="wky__sell_ask">
+            <p><strong>Stock</strong></p>
+            <p>
+                <input type="text" placeholder="Ejmplo: 4" [(ngModel)]="product.stock">
+            </p>
+        </div>
+
+        <div class="wky__sell_ask">
+            <p><strong>Precio</strong></p>
+            <p>
+                <input type="text" placeholder="Ejmplo: 35.50" [(ngModel)]="product.price">
+            </p>
+        </div>
+
+        <div class="wky__sell_ask">
+            <p><strong>Descripcion</strong></p>
+            <p>
+                <textarea cols="100" rows="5" placeholder="Ejemplo: Es un producto con altos contenidos proteinicos" [(ngModel)]="product.description"></textarea>
+            </p>
+        </div>
+        <div class="wky__sell_ask">
+            <p><strong>Fotos</strong></p>
+            <p>Sube una foto de tu producto</p>
+            <p>
+
+            </p>
+            <div class="wky__sell_photos">
+                <div>
+                    <div class="wky__card_button">
+                        <div><a href=""><i class="fas fa-camera"></i></a></div>
+                        <div>
+                            <span>Agregar foto</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+    </div>
+    <div class="wky__sell_footer">
+        <div class="wky__big_button">
+            <div class="wky__cards_button wky__border_red">
+                <div class="wky__bg_red">
+                    <a href="">
+                        <i class="fas fa-times"></i>
+                    </a>
+                </div>
+                <div class="wky__text_button wky__color_red" (click)="beforeStep()" style="cursor:pointer">
+                    Cancelar
+                </div>
+                <div class="wky__text_button wky__color_blue" (click)="createProduct()" style="cursor:pointer">
+                    Guardar
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

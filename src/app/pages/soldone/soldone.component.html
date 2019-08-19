@@ -1,0 +1,69 @@
+                                  <div class="wky__sell_card">
+                              <div class="wky__sell_header">
+                                  <p>
+                                      <strong>¡Hola!</strong>
+                                  </p>
+                                  <p>
+                                      ¿Qué vas a publicar?
+                                  </p>
+                              </div>
+                              <div class="wky__sell_body">
+                                  <div class="wky__sell_row">
+                                      <div class="wky__sell_category" *ngFor="let b of allCategories" (click)="selectCategorie(b.description)">
+                                          <p >
+                                              {{b.description}}
+                                          </p>
+                                      </div>
+                     
+                                  </div>
+                              </div>
+                              <div class="wky__sell_footer">
+                                  <div class="wky__big_button">
+                                      <div class="wky__cards_button wky__border_red">
+                                         <div class="wky__bg_red">
+                                             <a href="">
+                                                 <i class="fas fa-times"></i>
+                                             </a>
+                                         </div>
+                                         <div class="wky__text_button wky__color_red">
+                                             Cancelar
+                                         </div>
+                                      </div>
+                                      <div class="wky__cards_button wky__border_blue">
+                                         <div class="wky__bg_blue" (click)="beforeStep()">
+                                             <a href="">
+                                                 <i class="fas fa-check"></i>
+                                             </a>
+                                         </div>
+                                         <div class="wky__text_button wky__color_blue" (click)="nextStep()" style="cursor:pointer">
+                                             Continuar
+                                         </div>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          

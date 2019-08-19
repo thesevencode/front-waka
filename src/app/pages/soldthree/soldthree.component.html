@@ -1,0 +1,177 @@
+
+                <div class="wky__sell_card">
+                    <div class="wky__sell_header">
+                        <p>
+                            <strong>¡Para terminar!</strong>
+                        </p>
+                        <p>
+                            Define las condiciones de venta
+                        </p>
+                    </div>
+                    <div class="wky__sell_body">
+                        <div class="wky__sell_ask">
+                            <p><strong>¿Cuál es el precio?</strong></p>
+                            <p>Defina eñ valor por el cual venderá el producto </p>
+                            <p>
+                                <input type="text" placeholder="S/.">
+                            </p>
+                        </div>
+                        <div class="wky__sell_ask">
+                            <p><strong>Elije el tipo de exposicion del producto</strong></p>
+                            <p>bla bla bla bla bla bla </p>
+                            <p>
+                                
+                            </p>
+                        </div>
+                        <div class="wky__sell_ask">
+                            <p><strong>¿Cómo quieres enviar tu producto?</strong></p>
+                            <p>Puedes ofrecer los envíos por tu cuenta</p>
+                            <p>
+                                <label class="wky__container_radio">Ofrecer envio por mi cuenta gratis
+                                   <br>
+                                   Tu comprador verá que ofreces envíos gratis y tú pagarás el costo, dependiendo la transportadora que elijas.
+                                    <input type="radio" checked="checked" name="radio">
+                                    <span class="wky__checkradio"></span>
+                                </label>
+                                <label class="wky__container_radio">Ofrecer envio a cargo del comprador
+                                   <br>
+                                   Usa esta opción si conoces los costos de envío. Complétalos en la tabla para que tu comprador pueda verlos al comprar.
+                                   <br>
+                                    <input type="radio" checked="checked" name="radio">
+                                    <span class="wky__checkradio"></span>
+                                    <ul >
+                                       <li>
+                                           <span>
+                                               <input type="text" placeholder="Zona o región">
+                                               <input type="text" placeholder="S/.">
+                                               <span class="wky__times"><a href=""><i class="fas fa-times"></i></a></span>
+                                           </span>
+                                       </li>
+                                        <li>
+                                           <span>
+                                               <input type="text" placeholder="Zona o región">
+                                               <input type="text" placeholder="S/.">
+                                               <span class="wky__times"><a href=""><i class="fas fa-times"></i></a></span>
+                                           </span>
+                                       </li>
+                                        <li>
+                                           <span>
+                                               <input type="text" placeholder="Zona o región">
+                                               <input type="text" placeholder="S/.">
+                                               <span class="wky__times"><a href=""><i class="fas fa-times"></i></a></span>
+                                           </span>
+                                       </li>
+                                       <li>
+                                            <div class="wky__card_button">
+                                               <div><a href=""><i class="fas fa-plus"></i></a></div>
+                                            </div>
+                                       </li>
+                                   </ul>
+                                </label>
+                            </p>
+
+                        </div>
+                        <div class="wky__sell_ask">
+                            <p><strong>¿Quieres ofrecer retiro en persona?</strong></p>
+                            <p></p>
+                            <label class="wky__container_radio">Sí, el retiro es en persona.
+                                    <input type="radio" checked="checked" name="radio">
+                                    <span class="wky__checkradio"></span>
+                                </label>
+                                <label class="wky__container_radio">No, solo se hacen envíos.
+                                    <input type="radio" checked="checked" name="radio">
+                                    <span class="wky__checkradio"></span>
+                                </label>
+                        </div>
+                        <div class="wky__sell_ask">
+                            <p><strong>Cobra tu venta</strong></p>
+                            <p></p>
+                            <label class="wky__container_radio">Te pueden pagar con tarjetas de crédito, débito y/o efectivo.
+                                    <input type="radio" checked="checked" name="radio">
+                                    <span class="wky__checkradio"></span>
+                                </label>
+                                <label class="wky__container_radio">bla bla bla
+                                    <input type="radio" checked="checked" name="radio">
+                                    <span class="wky__checkradio"></span>
+                                </label>
+                        </div>
+                        <div class="wky__sell_ask">
+                            <p><strong>Ofrece tu garantía</strong></p>
+                            <p></p>
+                            <label class="wky__container_radio">Garantía del vendedor
+                                    <input type="radio" checked="checked" name="radio">
+                                    <span class="wky__checkradio"></span>
+                                </label>
+                                <label class="wky__container_radio">Garantía de la organización
+                                    <input type="radio" checked="checked" name="radio">
+                                    <span class="wky__checkradio"></span>
+                                </label>
+                                <label class="wky__container_radio">Sin garantía
+                                    <input type="radio" checked="checked" name="radio">
+                                    <span class="wky__checkradio"></span>
+                                </label>
+                        </div>
+                        <div class="wky__sell_ask">
+                            <p><strong>Agregar una descripción</strong> | Opcional</p>
+                            <p></p>
+                            <p>
+                                <textarea name="" id="" rows="5"></textarea>
+                            </p>
+                        </div>
+                        <div class="wky__sell_ask">
+                           <p><strong>Agregar un Video</strong> | Opcional</p>
+                           <p></p>
+                           <p>
+                               <input type="text" placeholder="ejem: https://www.youtube.com/watch?v=uAVUl0cAKpo">
+                           </p>
+                            
+                        </div>
+                    </div>
+                    <div class="wky__sell_footer">
+                        <div class="wky__big_button">
+                            <div class="wky__cards_button wky__border_red">
+                               <div class="wky__bg_red">
+                                   <a href="">
+                                       <i class="fas fa-times"></i>
+                                   </a>
+                               </div>
+                               <div class="wky__text_button wky__color_red" (click)="beforeStep()" style="cursor:pointer">
+                                   Cancelar
+                               </div>
+                            </div>
+                            <div class="wky__cards_button wky__border_blue">
+                               <div class="wky__bg_blue">
+                                   <a href="">
+                                       <i class="fas fa-check"></i>
+                                   </a>
+                               </div>
+                               <div class="wky__text_button wky__color_blue" style="cursor:pointer">
+                                   Continuar
+                               </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
